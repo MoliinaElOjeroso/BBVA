@@ -1,14 +1,14 @@
-## JAVA 
+# JAVA 
 
-# 1. Explique como funciona el tipo MAP en JAVA y ponga un ejemplo de uso.
+### 1. Explique como funciona el tipo MAP en JAVA y ponga un ejemplo de uso.
 
-# 2. Explique como funciona el patron Singleton en JAVA.
+### 2. Explique como funciona el patron Singleton en JAVA.
 
-# 3. Implemente la clase puntolmpl, de tal manera que pueda reutilizarse para diferentes casos. Tenga en cuenta que todos los metodos genericos suelen crearse para un tipo, como la representacion de cadenas o el criterio de igualdad.
+### 3. Implemente la clase puntolmpl, de tal manera que pueda reutilizarse para diferentes casos. Tenga en cuenta que todos los metodos genericos suelen crearse para un tipo, como la representacion de cadenas o el criterio de igualdad.
 
-# 4. Cree la clase puntoHijolmpl que herede de puntolmpl siendo siempre puntoHijo un punto con los atributos 'x = 1' e 'y = 1'.
+### 4. Cree la clase puntoHijolmpl que herede de puntolmpl siendo siempre puntoHijo un punto con los atributos 'x = 1' e 'y = 1'.
 
-# 5. Busque el Fallo o fallos en el siguiente codigo:
+### 5. Busque el Fallo o fallos en el siguiente codigo:
 
     String cadena = "Abc"; 
     Integer entero = 50; 
@@ -19,17 +19,17 @@
     Long real2 = 1; 
     Float real3 = 0.1;
     
-# 6. Escriba una expresion logica que sea cierta si un numero entero 'Num' esta comprendido entre 1-5 o bien es igual a 9.
+### 6. Escriba una expresion logica que sea cierta si un numero entero 'Num' esta comprendido entre 1-5 o bien es igual a 9.
 
-# 7. Explique la diferencia entre Igualdad e Identidad y explique la dferencia.
+### 7. Explique la diferencia entre Igualdad e Identidad y explique la dferencia.
 
-# 8 Cree un metodo estatico que calcule el maximo de tres numeros enteros dados.
+### 8 Cree un metodo estatico que calcule el maximo de tres numeros enteros dados.
 
-# 9 Añada al metodo anterior una captura de excepcion con IllegalArgumentException en el caso de que alguno de los enteros sea mayor que 10.
+### 9 Añada al metodo anterior una captura de excepcion con IllegalArgumentException en el caso de que alguno de los enteros sea mayor que 10.
 
-# 10 Explique que es una variable estatica y ponga el ejemplo de una.
+### 10 Explique que es una variable estatica y ponga el ejemplo de una.
 
-# 11 Escriba el metodo descrito a continuacion.
+### 11 Escriba el metodo descrito a continuacion.
 
   public static SortedMap cuentaPalabras(String frase)
   
@@ -39,6 +39,6 @@
   
   Por ejemplo, si la cadena de entrada es "El estribillo de una chirigota de Cádiz es Como como como como estoy como estoy" la función devuelta debe ser: {chirigota=1, como=5, cádiz=1, de=2, el=1, es=1, estoy=2, estribillo=1, una=1} Obsérvese que las palabras están en orden alfabético (las vocales con tilde van detrás de las vocales sin tilde en el orden alfabético de las cadenas en Java).
   
- # 12 Utilizando el codigo de ejemplo explique como funciona la clase "ParameterTable".
+ ### 12 Utilizando el codigo de ejemplo explique como funciona la clase "ParameterTable".
  
   
