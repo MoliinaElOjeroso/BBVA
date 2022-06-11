@@ -1,0 +1,333 @@
+En este documento se muestra lo que imprime el codigo al ejecutar desde consola.
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_1:
+
+
+TablaHash:
+
+
+{Prueba_1=1, Prueba_2=2, Prueba_3=3}
+
+1
+
+
+ArbolRojoNegro:
+
+
+{Prueba_1=1, Prueba_2=2, Prueba_3=3}
+
+2
+
+
+TablaHashList:
+
+
+{Prueba_3=3, Prueba_1=1, Prueba_2=2}
+
+3
+
+
+Ejemplo, Catalogo Telefonico:
+
+
+{QA=5593748596, TI=5503498574, RH=5503664537}
+
+Telefono RH: 5503664537
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_2:
+
+
+Parametros primera llamada:
+
+--1
+
+--Parametro
+
+
+Parametros segunda llamada 1:
+
+--2
+
+--Segundo_Parametro
+
+
+Parametros segunda llamada 2:
+
+--2
+
+--Segundo_Parametro
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_3:
+
+Punto Objeto:
+
+[x: 0.0 , y: 0.0]
+
+Punto Coordenadas:
+
+[ 0.0 , 0.0 ] 
+
+Punto_2 Objeto:
+
+[x: 0.0 , y: 0.0]
+
+Punto_2 Coordenadas:
+
+[ 0.0 , 0.0 ] 
+
+Punto_1 Objeto:
+
+[x: 0.0 , y: 0.0]
+
+Punto_1 Coordenadas:
+
+[ 0.0 , 0.0 ] 
+
+
+Identidad:
+
+Punto == Punto_1:   true
+
+Punto_1 == Punto_2: false
+
+
+Igualdad:
+
+Punto == Punto_1:   true
+
+Punto_1 == Punto_2: true
+
+
+Codigos Hash:
+
+
+HashCode punto:   16337
+
+
+HashCode punto_1: 16337
+
+
+HashCode punto_2: 16337
+
+
+Punto Objeto_Modificación:
+
+[x: 50.0 , y: 15.5]
+
+Punto Coordenadas:
+
+[ 50.0 , 15.5 ] 
+
+
+Identidad:
+
+Punto == Punto_1:   true
+
+Punto_1 == Punto_2: false
+
+
+Igualdad:
+
+Punto == Punto_1:   true
+
+Punto_1 == Punto_2: false
+
+
+Codigos Hash:
+
+
+HashCode punto:   151404497
+
+
+HashCode punto_1: 151404497
+
+
+HashCode punto_2: 16337
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_4:
+
+[ 1.0 , 1.0 ] 
+
+Los valores de X son inmutables
+Los valores de Y son inmutables
+Los valores de X son inmutables
+Los valores de Y son inmutables
+Los valores de X son inmutables
+Los valores de Y son inmutables
+
+Con esto confirmamos que no es mutable el valor de las coordenadas:
+
+[ 1.0 , 1.0 ] 
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_5:
+
+
+Inicia comprobacion
+
+String:       Letras: Abc
+
+Integer:      10050
+
+Null String:  null null
+
+Boolean:      true
+
+Char:         X-x
+
+Double:       150.9
+
+Long:         1100000
+
+Float:        20.9001
+
+
+Termina comprobacion
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_6:
+
+
+0 = false
+
+
+1 = true
+
+
+2 = true
+
+
+3 = true
+
+
+4 = true
+
+
+5 = true
+
+
+6 = false
+
+
+7 = false
+
+
+8 = false
+
+
+9 = true
+
+
+10 = false
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_7:
+
+
+Primitivos y Wrappers:
+
+
+Igualdad:
+
+x == y:     true
+x_1 == y_1: true
+x == x_1:   true
+y == y_1:   true
+
+Identidad:
+
+x.equals(y):   true
+x.equals(x_1): true
+y.equals(y_1): true
+
+Objetos: 
+
+
+Igualdad:
+
+punto_1 == punto_2: true
+punto_1 == punto_3: false
+punto_1 == punto_4: true
+punto_4 == punto_3: false
+
+Identidad:
+
+punto_1.equals(punto_2): true
+punto_1.equals(punto_3): true
+punto_1.equals(punto_4): true
+punto_4.equals(punto_3): true
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_8:
+
+Max(10,15,1) : 15
+
+Max(16,33,13) : 33
+
+Max(67,23,122) : 122
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_9:
+
+Max(10,15,1) : 6
+
+Max(16,33,13) : 9
+
+Los parametros ingresados deben ser numero enteros positivos menores que 10
+
+Excepción Tratada:
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_10:
+
+Resulado de la suma de Var con PI y Ejemplo: 14.141592653589793
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_11:
+
+
+Numero de palabras:9
+
+
+{chirigota=1, como=5, cádiz=1, de=2, el=1, es=1, estoy=2, estribillo=1, una=1}
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Pregunta_12:
